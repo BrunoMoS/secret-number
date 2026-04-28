@@ -24,7 +24,7 @@ function checkKick() {
         const wordTry = attempts > 1 ? 'tentativas' : 'tentativa';
         const messageAttempts = `Você descobriu o número secreto com ${attempts} ${wordTry}!`;
         displayTextOnScreen('p', messageAttempts);
-        document.getElementById('reiniciar').removeAttribute('disabled');
+        document.getElementById('restart').removeAttribute('disabled');
     } else {
         if (kick > secretNumber) {
             displayTextOnScreen('p', 'O número secreto é menor');
@@ -62,5 +62,5 @@ function restartGame() {
     clearField();
     attempts = 1;
     displayInitialMessage();
-    document.getElementById('reiniciar').setAttribute('disabled', true)
+    document.getElementById('restart').setAttribute('disabled', true)
 }
