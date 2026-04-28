@@ -41,19 +41,19 @@ body::before {
 }
 
 
-.container__conteudo {
+.container__content {
     display: flex;
     align-items: center;
     position: absolute;
     bottom: 0;
 }
 
-.container__informacoes {
+.container__info {
     flex: 1;
     padding: 3rem;
 }
 
-.container__botao {
+.container__botton {
     border-radius: 16px;
     background: #1875E8;
     padding: 16px 24px;
@@ -64,11 +64,11 @@ body::before {
     margin-top: 2rem;
 }
 
-.container__texto {
+.container__text {
     margin: 16px 0 16px 0;
 }
 
-.container__texto-azul {
+.container__blue-text {
     color: #1875E8;
 }
 
@@ -85,7 +85,7 @@ body::before {
     font-family: 'Inter', sans-serif;
 }
 
-.container__botoes {
+.container__bottons {
     display: flex;
     gap: 2em;
 }
@@ -101,7 +101,7 @@ button {
     font-family: 'Inter', sans-serif;
 }
 
-.texto__paragrafo {
+.paragraph_text {
     font-size: 32px;
     font-weight: 400;
 }
@@ -116,25 +116,25 @@ button:disabled {
         font-size: 50px;
     }
 
-    .container__botao {
+    .container__botton {
         font-size: 16px;
     }
 
 
-    .texto__paragrafo {
+    .paragraph_text {
         font-size: 24px;
     }
 
-    .container__imagem-pessoa {
+    .container__person-image {
         display: none;
     }
 
-    .container__conteudo {
+    .container__content{
         display: block;
         position: inherit;
     }
 
-    .container__informacoes {
+    .container__info {
         padding: 1rem
     }
 }
