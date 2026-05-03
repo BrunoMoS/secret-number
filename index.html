@@ -16,17 +16,17 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="container__content">
-        <div class="container__info">
+    <main class="container">
+      <section class="container__content">
+        <article class="container__info">
           <div class="container__text">
             <h1>
-              Adivinhe o
+              <span class="container__white-text">Adivinhe o</span>
               <span class="container__blue-text">numero secreto</span>
             </h1>
-            <p class="paragraph_text">Escolha um número entre 1 a 10</p>
+            <label for="guess"><p class="paragraph_text">Escolha um número entre 1 a 10</p></label>
           </div>
-          <input type="number" min="1" max="10" class="container__input" />
+          <input type="number" id="guess" min="1" max="10" class="container__input" />
           <div class="chute container__bottons">
             <button id="kick" class="container__botton">
               Chutar
@@ -40,14 +40,14 @@
               Novo jogo
             </button>
           </div>
-        </div>
+        </article>
         <img
           src="./img/ia.png"
           alt="Uma pessoa olhando para a esquerda"
           class="container__person-image"
         />
-      </div>
-    </div>
+      </section>
+    </main>
 
     <script src="app.js" defer></script>
   </body>
